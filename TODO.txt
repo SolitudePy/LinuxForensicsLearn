@@ -1,0 +1,4 @@
+
+# Setup wiki.js for wiki collaboration, documentations etc
+
+# Setup nginx server to serve static web pages that will be referenced from wiki.js

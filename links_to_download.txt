@@ -1,0 +1,2 @@
+# LinuxForensicsLabVM, Exercises, PomeranzLinuxForensics.pdf
+https://archive.org/download/HalLinuxForensics/media-v3.0.2/

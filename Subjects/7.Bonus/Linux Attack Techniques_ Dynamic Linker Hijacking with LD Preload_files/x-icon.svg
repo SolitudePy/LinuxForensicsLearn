@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>logo</title>
+    <g id="Round-Three-Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="CADO-Homepage-R3" transform="translate(-200, -6761)" fill="#000000" fill-rule="nonzero">
+            <g id="logo" transform="translate(200, 6761)">
+                <path d="M13.9372166,10.1623621 L22.6552978,0 L20.5893916,0 L13.0194828,8.8238362 L6.97341888,0 L0,0 L9.14283504,13.3432031 L0,24 L2.06602327,24 L10.060042,14.681729 L16.4451284,24 L23.4185473,24 L13.9367092,10.1623621 L13.9372166,10.1623621 Z M11.1075145,13.4607598 L10.1811549,12.1320776 L2.81044034,1.55961545 L5.98373156,1.55961545 L11.931984,10.0919298 L12.8583437,11.4206121 L20.5903674,22.5113139 L17.4170762,22.5113139 L11.1075145,13.4612686 L11.1075145,13.4607598 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

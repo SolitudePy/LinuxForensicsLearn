@@ -1,14 +1,16 @@
-# Welcome to the Linux Forensics study guide! 
-# This document will help you navigate through the necessary topics, 
-# materials, and exercises to build a solid foundation in Linux forensics. 
-# Follow the outlined steps, explore the materials provided, 
-# and feel free to ask questions as you go. Let’s dive in!
+# Linux Forensics Study Guide
+**Welcome to the Linux Forensics study guide! 
+This document will help you navigate through the necessary topics, 
+materials, and exercises to build a solid foundation in Linux forensics. 
+Follow the outlined steps, explore the materials provided, 
+and feel free to ask questions as you go. Remember to document your answers and reflections along the way, Let’s dive in!**
 
-# Chapter 1. - Linux Directories 
-## linux-directories by dev.to in Subjects/1.Linux Directories/index.html
-## PomeranzLinuxForensics.pdf page 15-20
+# Chapter 1. Linux Directories 
 
-# Chapter 1. - Questions
+- linux-directories by dev.to in Subjects/1.Linux Directories/index.html
+- PomeranzLinuxForensics.pdf page 15-20**
+
+## Questions
 1. What is the difference between a hard link and a symbolic(soft) link?
 2. what is the relationship of /bin and /usr/bin, /sbin and /usr/sbin?
 3. what is usually saved in /etc? name 3 forensic artifacts in /etc.
@@ -16,11 +18,11 @@
 5. what is special about the /tmp directory, why as forensic analysts we would want to check it? 
 
 # Chapter 2. Linux Logs
-## Logs.md in Subjects/2.Linux Logs/Logs.md
-## Linux Audit Subsystem by IzyKnows Part 1-3 in Subjects/2.Linux Logs/*
-## Laurel resources(LAUREL_README.md, laurel.8.md, laurel-about.7.md)
+- Logs.md in Subjects/2.Linux Logs/Logs.md
+- Linux Audit Subsystem by IzyKnows Part 1-3 in Subjects/2.Linux Logs/*
+- Laurel resources(LAUREL_README.md, laurel.8.md, laurel-about.7.md)
 
-# Chapter 2. Questions
+## Questions
 1. Explain the difference between utmp, wtmp, btmp and lastlog files.
 2. What command can be used to format btmp you acquired from other system? 
 3. What does the /var/log/cron file track, and why is it important?
@@ -35,12 +37,12 @@
    and how would you detect such tampering? Give atleast 3 tamper techniques and 2 security techniques.
 
 # Chapter 3. Linux FileSystems
-## procfs - _proc.html in Subjects/3.Linux FileSystems/_proc.html
-## inodes - What_Are_inodes_linux.pdf in Subjects/3.Linux FileSystems/What_Are_inodes_linux.pdf
-## XFS - XFS Filesystem in PomeranzLinuxForensics.pdf (page 169-181)
-## XFS Archeology - PomeranzLinuxForensics.pdf Page 182 + LinuxForensicsLab VM
+- procfs - _proc.html in Subjects/3.Linux FileSystems/_proc.html
+- inodes - What_Are_inodes_linux.pdf in Subjects/3.Linux FileSystems/What_Are_inodes_linux.pdf
+- XFS - XFS Filesystem in PomeranzLinuxForensics.pdf (page 169-181)
+- XFS Archeology - PomeranzLinuxForensics.pdf Page 182 + LinuxForensicsLab VM
 
-# Chapter 3. Questions
+## Questions
 1. Explain how the /proc filesystem differs from other filesystems in Linux. 
    Why is it considered a "pseudo-filesystem"?
 2. Describe the purpose of the /proc/sys directory. How does this directory enable kernel parameter tuning, 
@@ -59,10 +61,19 @@
 10. What limitations exist for XFS in forensic investigations?
 
 # Chapter 4. Linux Artifacts
-# Add artifacts here<>
+- Add artifacts here<>
 
-# Chapter 5. Linux Attack Techniques
-## Persistence mechanism in Subjects/5.Linux Attacks Techniques/Persistence.html(ignore the tasks)
+# Chapter 5. Linux Attacks Techniques
+- Read Persistence mechanism in Subjects/5.Linux Attacks Techniques/Persistence.html
+- Go through linux-persistence-map.pdf
+
+## Questions
+1. What is a persistence mechanism, and why is it valuable to attackers?
+2. List and explain three common persistence mechanisms discussed in the article.
+3. Choose one persistence mechanism and detail steps defenders can take to detect and mitigate it on Linux systems.
+4. Discuss the potential impact of overlooking persistence mechanisms during a Linux incident response. What risks might this pose?
+5. Explain how LD_PRELOAD and ld.so.preload can be used as persistence mechanisms in Linux. What are the security implications of these techniques?
+
 
 # Chapter 6. Linux internals
 ptrace implementations(strace, ltrace)

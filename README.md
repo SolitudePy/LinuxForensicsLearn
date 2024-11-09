@@ -60,10 +60,8 @@ and feel free to ask questions as you go. Remember to document your answers and 
 9. What happens to data on XFS when files are deleted?
 10. What limitations exist for XFS in forensic investigations?
 
-# Chapter 4. Linux Artifacts
-- Add artifacts here<>
 
-# Chapter 5. Linux Attacks Techniques
+# Chapter 4. Linux Attacks Techniques
 - Read Persistence mechanism in Subjects/5.Linux Attacks Techniques/Persistence.html
 - Go through linux-persistence-map.pdf
 
@@ -74,6 +72,15 @@ and feel free to ask questions as you go. Remember to document your answers and 
 4. Discuss the potential impact of overlooking persistence mechanisms during a Linux incident response. What risks might this pose?
 5. Explain how LD_PRELOAD and ld.so.preload can be used as persistence mechanisms in Linux. What are the security implications of these techniques?
 
+
+# Chapter 5. Linux Artifacts & Live Response
+- Artifacts.md in Subjects/2.Linux Artifacts & Live Response/Artifacts.md
+
+## Questions
+1. Choose 5 artifacts and explain their forensic usage with real-world examples.
+2. An investigator notices that both ss and netstat commands are used in Linux network analysis. What could be the advantages of using each command in forensic investigations? Describe the usefulness of comparing the outputs of both commands in identifying suspicious activity.
+3. Explain the purpose of `lsof` in forensic investigations and describe a situation where lsof might be crucial in a Linux forensic analysis.
+4. User login information is critical for tracking user activity. Choose three artifacts from the list that log user activity and explain how each could help determine whether unauthorized access has occurred.
 
 # Chapter 6. Linux internals
 ptrace implementations(strace, ltrace)

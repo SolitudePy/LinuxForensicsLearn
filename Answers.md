@@ -55,7 +55,7 @@ Given the complexity of XFS structures and limited tool compatibility,
 investigators often rely on manual methods and low-level tools like xfs_db and dd to analyze XFS systems, 
 especially when dealing with deleted or hidden data.
 
-# Chapter 5. Answers
+# Chapter 4. Answers
 1. Answer: A persistence mechanism is a method used by attackers to maintain access to a compromised system across reboots or updates. It's valuable because it allows the attacker to regain control without re-exploiting the system.
 2. Example answers: 
 Persistence techniques in Linux include:
@@ -66,3 +66,24 @@ rc.local modifications: Commands placed in /etc/rc.local execute on startup, tho
 Answer: With systemd services, defenders can regularly audit and review active services, searching for unknown or unexpected entries. Checking service files in /etc/systemd/system/ and /lib/systemd/system/ for unauthorized changes and comparing them with baselines helps detect alterations. Automated alerts on file modifications and enabling auditd logging for service file access further strengthen detection.
 4. Answer: Overlooking persistence mechanisms can lead to an attacker’s re-entry into the system even after initial cleanup, allowing further data theft, lateral movement, or destructive actions. Persistent footholds enable attackers to bypass perimeter defenses, escalate privileges, and reestablish full control, causing prolonged security risks and potential reputational damage.
 5. Answer: Both LD_PRELOAD and ld.so.preload allow attackers to load malicious shared libraries before standard libraries during program execution. This enables them to intercept function calls and alter the behavior of applications without modifying the binaries themselves. The security implications are significant, as these methods can evade detection by traditional security measures. For defenders, monitoring ld.so.preload and checking for unauthorized shared libraries can help identify potential compromises.
+
+# Chapter 5. Answers
+1. Answer: Example:
+/proc/modules: Used to detect loaded kernel modules, which may include rootkits in a compromised system. For example, an investigator might find an unknown module loaded, which could point to a hidden malicious process.
+/etc/sshd_config: Useful for examining SSH settings to check for altered configurations. For example, if PermitRootLogin is set to "yes" on a production server, this could indicate that unauthorized remote access was enabled.
+/var/log/auth.log: Monitors authentication attempts. If logs show repeated failed login attempts from an unfamiliar IP, this could suggest a brute-force attack.
+uptime: Can help correlate system uptime with an incident timeline, such as a recent reboot after malware installation.
+lsmod: Detects loaded kernel modules, which might reveal malicious drivers. For example, an investigator might find a module with no associated file on disk, indicating a possible rootkit.
+2. Answer:
+ss: Useful for quickly accessing real-time socket information, providing detailed data on active connections. This is particularly valuable when monitoring a live system with high network traffic.
+netstat: Offers insights into network connections by querying information stored in /proc, useful for both real-time and historical analysis.
+Comparison Utility: Comparing ss and netstat outputs can help verify accuracy, detect discrepancies, and identify connections or services that may appear in one output but not the other—an indication of stealthy connections or tampering.
+3. Answer:
+Purpose: lsof lists open files and associated processes, making it essential for identifying files that are open even if deleted, as well as for monitoring files tied to specific network connections.
+Scenario: During an investigation, lsof could expose files open by processes communicating with suspicious IPs, potentially identifying data exfiltration or malicious scripts running in memory despite deletion from disk.
+4. Answer:
+Example:
+Artifacts:
+/var/log/secure(or auth.log): Shows authentication attempts, highlighting brute-force attacks or repeated login failures.
+lastlog: Lists last login information, allowing for detection of unusual access based on time, source, and user.
+who command: Lists currently logged-in users, enabling real-time checks for unauthorized active sessions.

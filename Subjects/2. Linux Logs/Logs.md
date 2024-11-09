@@ -1,10 +1,6 @@
 # Community | Understanding Log Files on your Linux System
 
-## Log files in Linux represent point in time events for activity related to the OS, system devices, and applications running on the system. Learn how to leverage logs to troubleshoot issues, debug applications, and keep servers reliable at all times.
-
-Whether you’re a new user or an experienced Site Reliability Engineer, system logs are a vital source of information available on servers to help keep operations reliable. Logs are available on all system types, and their existence is very prevalent on machines running Linux. From boot sequences and process threads to user activity, practically every operation produces a written record of an event that is logged, allowing operators access to information and visibility across the entire server. But how does one go about locating and viewing these critical logs?
-
-Depending on the packages that are installed, applications running, and connected devices, the total number of log files can grow into the hundreds and contain millions of entries over time. In this article, I’ll provide an overview of several Linux log types along with the utilities operators can use to manage systems more effectively. Note that some files and utilities require root permissions, so users should ensure they have the proper system privileges or access levels.
+### Log files in Linux represent point in time events for activity related to the OS, system devices, and applications running on the system. Learn how to leverage logs to investigate, troubleshoot issues, debug applications, and keep servers reliable at all times.
 
 Linux systems contain a common directory structure under `/var/log` to store files for several key OS services, and applications. Contents may vary across distributions, but a typical list view of what is found inside is similar to the following,
 
@@ -24,7 +20,7 @@ Kernel logs contain detailed information about kernel events, which can be criti
 Records information about services and processes that start during boot. Helpful for identifying boot-time errors and tracking service initialization.
 - **Path**: `/var/log/cron` stores information about `cron` jobs which are tasks configured to run on a set schedule. An example would be an operation that runs every **Sunday at 4:00AM** to perform data backups. The information captured in the cron log verifies if a task runs as scheduled as well as the output results from the job.
 - **Path**: `/var/log/lastlog` 
-A binary file that records the last login time for each user. You can view its contents using the `lastlog` command:
+A binary file that records the last login time for each user. You can view its contents using the `lastlog` command
  - **Path**: `/var/log/btmp`
 Logs all failed login attempts, useful for identifying brute-force attacks. View this file with the `lastb` command(you can use `last -f `to specify other file).
 - **Path**: `/var/log/wtmp`

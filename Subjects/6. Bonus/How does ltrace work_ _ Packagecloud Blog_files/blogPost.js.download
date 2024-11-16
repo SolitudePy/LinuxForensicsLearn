@@ -1,0 +1,57 @@
+document.addEventListener("DOMContentLoaded", function (event) {
+  document.querySelectorAll("pre code").forEach(function (block) {
+    const codeText = block.innerHTML;
+    hljs.highlightBlock(block);
+
+    const copyButton = document.createElement("a");
+    const tooltip = document.createElement("span");
+    tooltip.classList.add("tooltip");
+    copyButton.classList.add("clipboard-copy");
+    const clipboard = new ClipboardJS(copyButton, {
+      text: function () {
+        return codeText;
+      },
+    });
+
+    clipboard.on("success", function (e) {
+      copyButton.classList.add("copied");
+      const removeCopied = function () {
+        copyButton.classList.remove("copied");
+        copyButton.removeEventListener("mouseleave", removeCopied);
+      };
+
+      copyButton.addEventListener("mouseleave", removeCopied);
+    });
+
+    copyButton.appendChild(tooltip);
+    block.parentNode.appendChild(copyButton);
+  });
+
+  const bannerTemplate = document.querySelector(".banner-cta-template");
+
+  document
+    .querySelectorAll(".blog-post .banner-cta")
+    .forEach(function (bannerContainer) {
+      const title = bannerContainer.dataset.title;
+      const text = bannerContainer.dataset.text;
+      const action = bannerContainer.dataset.action;
+
+      if (title || text || action) {
+        const copy = bannerTemplate.cloneNode(true);
+
+        if (title) {
+          copy.querySelector(".banner-cta__title").innerHTML = title;
+        }
+        if (text) {
+          copy.querySelector(".banner-cta__text").innerHTML = text;
+        }
+        if (action) {
+          copy.querySelector(".banner-cta__form").action = action;
+        }
+
+        bannerContainer.innerHTML = copy.innerHTML;
+      } else {
+        bannerContainer.innerHTML = bannerTemplate.innerHTML;
+      }
+    });
+});

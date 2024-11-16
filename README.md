@@ -75,6 +75,9 @@ and feel free to ask questions as you go. Remember to document your answers and 
 
 # Chapter 5. Linux Artifacts & Live Response
 - Artifacts.md in Subjects/2.Linux Artifacts & Live Response/Artifacts.md
+- PomeranzLinuxForensics.pdf pages 5-13(with Exercise 1)
+- PomeranzLinuxForensics.pdf Exercise 2-4(Honeypot Lab)
+
 
 ## Questions
 1. Choose 5 artifacts and explain their forensic usage with real-world examples.
@@ -82,7 +85,10 @@ and feel free to ask questions as you go. Remember to document your answers and 
 3. Explain the purpose of `lsof` in forensic investigations and describe a situation where lsof might be crucial in a Linux forensic analysis.
 4. User login information is critical for tracking user activity. Choose three artifacts from the list that log user activity and explain how each could help determine whether unauthorized access has occurred.
 
-# Chapter 6. Linux internals
+# Chapter 6. Linux Bonus
+- Linux boot
+- Linux ptrace
+
 ptrace implementations(strace, ltrace)
 login mechanism 
 services 

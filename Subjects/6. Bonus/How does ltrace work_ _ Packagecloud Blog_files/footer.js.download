@@ -1,0 +1,61 @@
+// Mobile footer dropdowns
+
+function toggleContent(content) {
+  content.style.maxHeight = content.style.maxHeight ? null : `${content.scrollHeight}px`;
+}
+
+function collapseAllOpenContent() {
+  const collapse = document.getElementsByClassName('footer__mobile-group-header');
+  for (const c of collapse) {
+    if (c.classList.contains('active')) {
+      c.classList.remove('active');
+      toggleContent(c.nextElementSibling);
+    }
+  }
+}
+
+function mobileFooterDropdowns() {
+  const collapse = document.getElementsByClassName('footer__mobile-group-header');
+
+  for (const c of collapse) {
+    c.addEventListener('click', function() {
+      if (!this.classList.contains('active')) {
+        collapseAllOpenContent();
+      }
+      this.classList.toggle('active');
+      toggleContent(this.nextElementSibling);
+    });
+  }
+}
+
+mobileFooterDropdowns();
+
+// Footer newsletter subscribe
+
+function newsletterSubscribe(event) {
+  event.preventDefault();
+  const form = event.target;
+  const input = form.querySelector(".footer__form-input");
+  const btn = form.querySelector(".footer__form-btn");
+  const confirm = form.querySelector(".footer__form-confirm");
+  const emailAddress = input.value;
+
+  const zap = new XMLHttpRequest();
+  zap.open("POST", "https://hooks.zapier.com/hooks/catch/9594392/b0kimnk/");
+  zap.setRequestHeader("Accept", "text/plain");
+  zap.setRequestHeader("Content-Type", "text/plain");
+  zap.send(emailAddress);
+
+  zap.onload = () => {
+    if (zap.readyState == 4 && zap.status == 200) {
+      confirm.style.display = "block";
+      input.style.visibility = "hidden";
+      btn.classList.add('hidden');
+      setTimeout(() => {
+        confirm.style.display = "none";
+        input.style.visibility = "visible";
+        btn.classList.remove('hidden');
+      }, 3000);
+    }
+  }
+}

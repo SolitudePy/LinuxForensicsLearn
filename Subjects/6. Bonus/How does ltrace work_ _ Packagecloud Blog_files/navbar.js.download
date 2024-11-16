@@ -1,0 +1,67 @@
+// Toggle hamburger and mobile navbar main dropdown
+const toggleMobileNav = () => {
+  const btn = document.querySelector('.navbar__hamburger');
+  const rect = document.querySelectorAll('.navbar__rect');
+  const navbar = document.querySelector('.navbar__items');
+
+  btn.addEventListener('click', () => {
+    rect.forEach((line) => {
+      line.classList.toggle('rotated')
+    });
+    navbar.classList.toggle('closed');
+  });
+};
+
+toggleMobileNav();
+
+// Configure mobile navbar secondary dropdowns
+const configureMobileNavDropdownItems = () => {
+  const dropdownItems = document.querySelectorAll('.navbar__item--dropdown');
+  const dropdowns = document.querySelectorAll('.navbar__dropdown');
+
+  if (!dropdownItems) return;
+
+  function toggleDropdown() {
+    const childDropdown = this.nextElementSibling;
+
+    childDropdown.classList.toggle('hidden');
+    this.classList.toggle('active');
+  };
+
+  // Add event listener on mobile view load
+  window.addEventListener('load', () => {
+    dropdownItems.forEach(dropdownItem => {
+      const dropdownItemLink = dropdownItem.querySelector('.navbar__item-link');
+
+      if (window.innerWidth <= 1250) {
+        dropdownItem.classList.remove('hover-mode');
+        dropdownItemLink.addEventListener('click', toggleDropdown)
+      }
+    });
+  });
+
+  // Switch between event listener and hover at mobile breakpoint
+  const widthMatch = window.matchMedia('(max-width: 1200px)');
+
+  widthMatch.addEventListener('change', (event) => {
+    dropdownItems.forEach(dropdownItem => {
+      const dropdownItemLink = dropdownItem.querySelector('.navbar__item-link');
+
+      if (event.matches) {
+        dropdownItem.classList.remove('hover-mode');
+        dropdownItemLink.classList.remove('active');
+        dropdownItemLink.addEventListener('click', toggleDropdown);
+      } else {
+        dropdownItem.classList.add('hover-mode');
+        dropdownItemLink.classList.remove('active');
+        dropdownItemLink.removeEventListener('click', toggleDropdown);
+
+        dropdowns.forEach(dropdown => {
+          dropdown.classList.add('hidden');
+        });
+      }
+    });
+  });
+};
+
+configureMobileNavDropdownItems();

@@ -62,7 +62,7 @@ and feel free to ask questions as you go. Remember to document your answers and 
 
 
 # Chapter 4. Linux Attacks Techniques
-- Read Persistence mechanism in Subjects/5.Linux Attacks Techniques/Persistence.html
+- Read Persistence mechanism in Subjects/4.Linux Attacks Techniques/Persistence.html
 - Go through linux-persistence-map.pdf
 
 ## Questions

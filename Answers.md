@@ -3,39 +3,30 @@ layout: default
 title: Answers
 ---
 
-```
-Output
-. . .
-
--- Reboot --
-
-. . .
-```
-
 # Chapter 1. Answers
 1. **Answer**:
-```
-Hard link:
-A hard link is an additional name for an existing file that points directly to the inode (data structure) on disk. It is indistinguishable from the original file. Deleting the original file does not affect the hard link.
+    ```
+    Hard link:
+    A hard link is an additional name for an existing file that points directly to the inode (data structure) on disk. It is indistinguishable from the original file. Deleting the original file does not affect the hard link.
 
-Symbolic (soft) link:
-A symlink is a special file that contains a path to another file or directory. If the target is deleted, the symlink becomes broken (dangling).
+    Symbolic (soft) link:
+    A symlink is a special file that contains a path to another file or directory. If the target is deleted, the symlink becomes broken (dangling).
 
-Forensically, symlinks can hide access paths or redirect programs; hard links can be used to obscure the presence or deletion of files.
-```
+    Forensically, symlinks can hide access paths or redirect programs; hard links can be used to obscure the presence or deletion of files.
+    ```
 
 2. **Answer**:
-```
-Historically:
+    ```
+    Historically:
 
-/bin and /sbin contain essential system binaries required for early boot and maintenance.
+    /bin and /sbin contain essential system binaries required for early boot and maintenance.
 
-/usr/bin and /usr/sbin contain user applications and non-essential system binaries.
+    /usr/bin and /usr/sbin contain user applications and non-essential system binaries.
 
-Modern systems (especially on systemd-based distros) often symlink /bin to /usr/bin and /sbin to /usr/sbin as part of the merged /usr initiative.
+    Modern systems (especially on systemd-based distros) often symlink /bin to /usr/bin and /sbin to /usr/sbin as part of the merged /usr initiative.
 
-Forensically, it’s important because tampered binaries or privilege escalation tools may hide in any of these paths.
-```
+    Forensically, it’s important because tampered binaries or privilege escalation tools may hide in any of these paths.
+    ```
 
 3. **Answer**:
 ```

@@ -7,10 +7,9 @@ and feel free to ask questions as you go. Remember to document your answers and 
 
 # Chapter 1. Linux Directories 
 
-- linux-directories by dev.to in Subjects/1.Linux Directories/index.html
+<a href="Subjects/1. Linux Directories/index.html" target="_blank">Linux Directory Structure By https://dev.to/softwaresennin</a><br>
+<a href="Resources/PomeranzLinuxForensics.pdf#page=15" target="_blank">PomeranzLinuxForensics page 15-20</a>
 
-<a href="Subjects/1. Linux Directories/index.html" target="_blank">Linux Directory Structure</a>
-- PomeranzLinuxForensics.pdf page 15-20**
 
 ## Questions
 1. What is the difference between a hard link and a symbolic(soft) link?

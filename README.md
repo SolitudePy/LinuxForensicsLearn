@@ -21,7 +21,7 @@ https://cyberdefenders.org/blueteam-ctf-challenges/?content=free&categories=endp
 <a href="Resources/PomeranzLinuxForensics.pdf#page=15" target="_blank">PomeranzLinuxForensics page 15-20 By Hal Pomeranz</a>
 
 
-## Questions
+## Tasks
 1. What is the difference between a hard link and a symbolic(soft) link?
 2. what is the relationship of /bin and /usr/bin, /sbin and /usr/sbin?
 3. what is usually saved in /etc? name 3 forensic artifacts in /etc.
@@ -38,7 +38,7 @@ https://cyberdefenders.org/blueteam-ctf-challenges/?content=free&categories=endp
 <a href="Subjects/2. Linux Logs/laurel.8.html" target="_blank">laurel.8.md By https://github.com/threathunters-io/laurel</a><br>
 
 
-## Questions
+## Tasks
 1. Explain the difference between utmp, wtmp, btmp and lastlog files.
 2. What command can be used to format btmp you acquired from other system? 
 3. What does the /var/log/cron file track, and why is it important?
@@ -54,12 +54,13 @@ https://cyberdefenders.org/blueteam-ctf-challenges/?content=free&categories=endp
 
 # Chapter 3. Linux FileSystems
 <a href="Subjects/3. Linux FileSystems/procfs.html" target="_blank">procfs</a><br>
+<a href="Subjects/3. Linux FileSystems/sysfs/sysfs.html" target="_blank">sysfs</a><br>
 <a href="Subjects/3. Linux FileSystems/What_Are_inodes_linux.pdf" target="_blank">inodes</a><br>
 <a href="Resources/PomeranzLinuxForensics.pdf#page=169" target="_blank">PomeranzLinuxForensics page 169-181 By Hal Pomeranz</a><br>
 <a href="Resources/PomeranzLinuxForensics.pdf#page=182" target="_blank">PomeranzLinuxForensics page 182+LinuxForensicsLab VM By Hal Pomeranz</a>
 
 
-## Questions
+## Tasks
 1. Explain how the /proc filesystem differs from other filesystems in Linux. 
    Why is it considered a "pseudo-filesystem"?
 2. Describe the purpose of the /proc/sys directory. How does this directory enable kernel parameter tuning, 
@@ -76,14 +77,14 @@ https://cyberdefenders.org/blueteam-ctf-challenges/?content=free&categories=endp
 8. How can forensic investigators access and analyze XFS structures?
 9. What happens to data on XFS when files are deleted?
 10. What limitations exist for XFS in forensic investigations?
-
+11. What is the purpose of the /sys directory in Linux? How does it differ from /proc?
 
 # Chapter 4. Linux Attacks Techniques
 <a href="Subjects/4. Linux Attacks Techniques/Persistence.html" target="_blank">Persistence mechanisms</a><br>
 <a href="Subjects/4. Linux Attacks Techniques/linux-persistence-map.pdf" target="_blank">Linux Persistence Map</a>
 
 
-## Questions
+## Tasks
 1. What is a persistence mechanism, and why is it valuable to attackers?
 2. List and explain three common persistence mechanisms discussed in the article.
 3. Choose one persistence mechanism and detail steps defenders can take to detect and mitigate it on Linux systems.
@@ -99,11 +100,14 @@ https://cyberdefenders.org/blueteam-ctf-challenges/?content=free&categories=endp
 <a href="Resources/PomeranzLinuxForensics.pdf#Page=49" target="_blank">PomeranzLinuxForensics Honeypot Lab Part 3 By Hal Pomeranz</a>
 
 
-## Questions
+## Tasks
 1. Choose 5 artifacts and explain their forensic usage with real-world examples.
 2. An investigator notices that both ss and netstat commands are used in Linux network analysis. What could be the advantages of using each command in forensic investigations? Describe the usefulness of comparing the outputs of both commands in identifying suspicious activity.
 3. Explain the purpose of `lsof` in forensic investigations and describe a situation where lsof might be crucial in a Linux forensic analysis.
 4. User login information is critical for tracking user activity. Choose three artifacts from the list that log user activity and explain how each could help determine whether unauthorized access has occurred.
+5. Read about OSQuery, why is it useful for live response & monitoring in linux?
+6. Try your way around UAX(Unix-like Artifact Collector) and explore the artifacts.
+7. Run Plaso on UAC output.
 
 # Chapter 6. Linux Bonus
 <a href="Resources/ulk3.pdf" target="_blank">Understanding the Linux Kernel</a><br>

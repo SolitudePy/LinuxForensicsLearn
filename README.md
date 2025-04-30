@@ -1,10 +1,13 @@
 # Linux Forensics Study Guide
-**Welcome to the Linux Forensics study guide! 
+```
+Welcome to the Linux Forensics study guide! 
 This document will help you navigate through the necessary topics, 
 materials, and exercises to build a solid foundation in Linux forensics. 
 Follow the outlined steps, explore the materials provided, 
-and feel free to ask questions as you go. Remember to document your answers and reflections along the way, Let’s dive in!**
-
+and feel free to ask questions as you go. 
+Currently this guide does not explore Memory Forensics
+Remember to document your answers and reflections along the way, Let’s dive in!
+```
 # Chapter 1. Linux Directories 
 
 <a href="Subjects/1. Linux Directories/index.html" target="_blank">Linux Directory Structure By https://dev.to/softwaresennin</a><br>

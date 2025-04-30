@@ -22,7 +22,7 @@ Remember to document your answers and reflections along the way, Let’s dive in
 5. what is special about the /tmp directory, why as forensic analysts we would want to check it? 
 
 # Chapter 2. Linux Logs
-<a href="Subjects/2. Linux Logs/Logs.md" target="_blank">Linux Logs guide</a><br>
+<a href="Subjects/2. Linux Logs/Logs.html" target="_blank">Linux Logs guide</a><br>
 <a href="Subjects/2. Linux Logs/Linux_Auditd_For_ThreatDetection_IzyKnows_Part1.pdf" target="_blank">Linux Audit Subsystem Part 1 By IzyKnows</a><br>
 <a href="Subjects/2. Linux Logs/Linux_Auditd_For_ThreatDetection_IzyKnows_Part2.pdf" target="_blank">Linux Audit Subsystem Part 2 By IzyKnows</a><br>
 <a href="Subjects/2. Linux Logs/Linux_Auditd_For_ThreatDetection_IzyKnows_Part3.pdf" target="_blank">Linux Audit Subsystem Part 3 By IzyKnows</a><br>

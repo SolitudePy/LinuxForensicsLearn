@@ -97,9 +97,9 @@ https://cyberdefenders.org/blueteam-ctf-challenges/?content=free&categories=endp
 # Chapter 5. Linux Artifacts & Live Response
 <a href="Subjects/5. Linux Artifacts & Live Response/Artifacts.html" target="_blank">Linux Artifacts guide</a><br>
 <a href="Resources/PomeranzLinuxForensics.pdf#page=5" target="_blank">PomeranzLinuxForensics page 5-13(including Exercise) By Hal Pomeranz</a><br>
-<a href="Resources/PomeranzLinuxForensics.pdf#Page=25" target="_blank">PomeranzLinuxForensics Honeypot Lab Part 1 By Hal Pomeranz</a><br>
-<a href="Resources/PomeranzLinuxForensics.pdf#Page=35" target="_blank">PomeranzLinuxForensics Honeypot Lab Part 2 By Hal Pomeranz</a><br>
-<a href="Resources/PomeranzLinuxForensics.pdf#Page=49" target="_blank">PomeranzLinuxForensics Honeypot Lab Part 3 By Hal Pomeranz</a>
+<a href="Resources/PomeranzLinuxForensics.pdf#page=25" target="_blank">PomeranzLinuxForensics Honeypot Lab Part 1 By Hal Pomeranz</a><br>
+<a href="Resources/PomeranzLinuxForensics.pdf#page=35" target="_blank">PomeranzLinuxForensics Honeypot Lab Part 2 By Hal Pomeranz</a><br>
+<a href="Resources/PomeranzLinuxForensics.pdf#page=49" target="_blank">PomeranzLinuxForensics Honeypot Lab Part 3 By Hal Pomeranz</a>
 
 
 ## Tasks

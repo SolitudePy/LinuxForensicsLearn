@@ -1,8 +1,6 @@
 ---
+layout: default
 title: laurel
-section: 8
-header: System Administration Utilities
-footer: laurel 0.6.3
 ---
 
 # NAME

@@ -1,3 +1,8 @@
+---
+layout: default
+title: LAUREL-README
+---
+
 ![logo](laurel.svg)
 # Linux Audit – Usable, Robust, Easy Logging
 

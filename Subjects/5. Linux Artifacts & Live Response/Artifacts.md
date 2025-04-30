@@ -1,3 +1,8 @@
+---
+layout: default
+title: Artifacts
+---
+
 # Linux Artifacts
 
 ## System Configuration

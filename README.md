@@ -26,9 +26,9 @@ Remember to document your answers and reflections along the way, Let’s dive in
 <a href="Subjects/2. Linux Logs/Linux_Auditd_For_ThreatDetection_IzyKnows_Part1.pdf" target="_blank">Linux Audit Subsystem Part 1 By IzyKnows</a><br>
 <a href="Subjects/2. Linux Logs/Linux_Auditd_For_ThreatDetection_IzyKnows_Part2.pdf" target="_blank">Linux Audit Subsystem Part 2 By IzyKnows</a><br>
 <a href="Subjects/2. Linux Logs/Linux_Auditd_For_ThreatDetection_IzyKnows_Part3.pdf" target="_blank">Linux Audit Subsystem Part 3 By IzyKnows</a><br>
-<a href="Subjects/2. Linux Logs/LAUREL_README.md" target="_blank">LAUREL_README By https://github.com/threathunters-io/laurel</a><br>
-<a href="Subjects/2. Linux Logs/laurel-about.7.md" target="_blank">laurel-about.7.md By https://github.com/threathunters-io/laurel</a><br>
-<a href="Subjects/2. Linux Logs/laurel.8.md" target="_blank">laurel.8.md By https://github.com/threathunters-io/laurel</a><br>
+<a href="Subjects/2. Linux Logs/LAUREL_README.html" target="_blank">LAUREL_README By https://github.com/threathunters-io/laurel</a><br>
+<a href="Subjects/2. Linux Logs/laurel-about.7.html" target="_blank">laurel-about.7.md By https://github.com/threathunters-io/laurel</a><br>
+<a href="Subjects/2. Linux Logs/laurel.8.html" target="_blank">laurel.8.md By https://github.com/threathunters-io/laurel</a><br>
 
 
 ## Questions
@@ -85,7 +85,7 @@ Remember to document your answers and reflections along the way, Let’s dive in
 
 
 # Chapter 5. Linux Artifacts & Live Response
-<a href="Subjects/5. Linux Artifacts & Live Response/Artifacts.md" target="_blank">Linux Artifacts guide</a><br>
+<a href="Subjects/5. Linux Artifacts & Live Response/Artifacts.html" target="_blank">Linux Artifacts guide</a><br>
 <a href="Resources/PomeranzLinuxForensics.pdf#page=5" target="_blank">PomeranzLinuxForensics page 5-13(including Exercise) By Hal Pomeranz</a><br>
 <a href="Resources/PomeranzLinuxForensics.pdf" target="_blank">PomeranzLinuxForensics Exercise 2-4(Honeypot Lab) By Hal Pomeranz</a>
 

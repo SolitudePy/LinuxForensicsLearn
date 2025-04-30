@@ -1,5 +1,3 @@
 markdown: kramdown
 theme: null
-exclude:
-  - README.md
 

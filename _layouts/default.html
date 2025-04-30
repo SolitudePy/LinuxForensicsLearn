@@ -3,14 +3,88 @@
 <head>
   <meta charset="UTF-8">
   <title>{{ page.title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    :root {
+      color-scheme: dark light;
+      --bg-color: #121212;
+      --text-color: #e0e0e0;
+      --link-color: #81aaff;
+      --code-bg: #1e1e1e;
+      --border-color: #333;
+    }
+
+    body {
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      font-family: system-ui, sans-serif;
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 1rem;
+      line-height: 1.6;
+    }
+
+    h1, h2, h3 {
+      color: var(--text-color);
+    }
+
+    a {
+      color: var(--link-color);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    pre {
+      background-color: var(--code-bg);
+      padding: 1em;
+      border-radius: 5px;
+      overflow-x: auto;
+    }
+
+    code {
+      background-color: var(--code-bg);
+      padding: 0.2em 0.4em;
+      border-radius: 3px;
+      font-family: monospace;
+    }
+
+    blockquote {
+      border-left: 4px solid var(--border-color);
+      padding-left: 1em;
+      color: #aaa;
+    }
+
+    hr {
+      border: none;
+      border-top: 1px solid var(--border-color);
+      margin: 2rem 0;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 1rem;
+    }
+
+    th, td {
+      border: 1px solid var(--border-color);
+      padding: 0.5rem;
+    }
+
+    th {
+      background-color: #1a1a1a;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
 </head>
 <body>
-  <nav>
-    <a href="index.html">Home</a> |
-    <a href="about.html">About</a> |
-    <a href="contact.html">Contact</a>
-  </nav>
-  <hr>
   <main>
     {{ content }}
   </main>

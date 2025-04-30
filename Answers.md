@@ -1,3 +1,8 @@
+---
+layout: default
+title: Answers
+---
+
 # Chapter 1. Answers
 1. **Answer**:
 ```

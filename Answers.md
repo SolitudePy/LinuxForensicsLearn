@@ -3,6 +3,15 @@ layout: default
 title: Answers
 ---
 
+```
+Output
+. . .
+
+-- Reboot --
+
+. . .
+```
+
 # Chapter 1. Answers
 1. **Answer**:
 ```

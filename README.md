@@ -82,7 +82,7 @@ https://cyberdefenders.org/blueteam-ctf-challenges/?content=free&categories=endp
 11. What is the purpose of the /sys directory in Linux? How does it differ from /proc?
 
 # Chapter 4. Linux Attacks Techniques
-<a href="Subjects/4. Linux Attacks Techniques/Persistence.html" target="_blank">Persistence mechanisms</a><br>
+<a href="Subjects/4. Linux Attacks Techniques/Art-of-Linux-Persistence.pdf" target="_blank">Linux Persistence By hadess</a><br>
 <a href="Subjects/4. Linux Attacks Techniques/linux-persistence-map.pdf" target="_blank">Linux Persistence Map</a>
 
 

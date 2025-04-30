@@ -124,4 +124,4 @@ https://cyberdefenders.org/blueteam-ctf-challenges/?content=free&categories=endp
 
 # Answers
 Review your answers in:
-<a href="Answers.md" target="_blank">Answers</a>
+<a href="Answers.html" target="_blank">Answers</a>

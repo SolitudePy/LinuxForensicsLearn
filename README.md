@@ -59,7 +59,7 @@ https://cyberdefenders.org/blueteam-ctf-challenges/?content=free&categories=endp
 <a href="Subjects/3. Linux FileSystems/sysfs/sysfs.html" target="_blank">sysfs</a><br>
 <a href="Subjects/3. Linux FileSystems/What_Are_inodes_linux.pdf" target="_blank">inodes</a><br>
 <a href="Resources/PomeranzLinuxForensics.pdf#page=169" target="_blank">PomeranzLinuxForensics page 169-181 By Hal Pomeranz</a><br>
-<a href="Resources/PomeranzLinuxForensics.pdf#page=182" target="_blank">PomeranzLinuxForensics page 182+LinuxForensicsLab VM By Hal Pomeranz</a>
+<a href="Resources/PomeranzLinuxForensics.pdf#page=182" target="_blank">PomeranzLinuxForensics page 182 (Exercise 16) By Hal Pomeranz</a>
 
 
 ## Tasks

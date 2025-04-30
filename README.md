@@ -8,7 +8,7 @@ and feel free to ask questions as you go. Remember to document your answers and 
 # Chapter 1. Linux Directories 
 
 <a href="Subjects/1. Linux Directories/index.html" target="_blank">Linux Directory Structure By https://dev.to/softwaresennin</a><br>
-<a href="Resources/PomeranzLinuxForensics.pdf#page=15" target="_blank">PomeranzLinuxForensics page 15-20</a>
+<a href="Resources/PomeranzLinuxForensics.pdf#page=15" target="_blank">PomeranzLinuxForensics page 15-20 By Hal Pomeranz</a>
 
 
 ## Questions
@@ -19,9 +19,14 @@ and feel free to ask questions as you go. Remember to document your answers and 
 5. what is special about the /tmp directory, why as forensic analysts we would want to check it? 
 
 # Chapter 2. Linux Logs
-- Logs.md in Subjects/2.Linux Logs/Logs.md
-- Linux Audit Subsystem by IzyKnows Part 1-3 in Subjects/2.Linux Logs/*
-- Laurel resources(LAUREL_README.md, laurel.8.md, laurel-about.7.md)
+<a href="Subjects/2. Linux Logs/Logs.md" target="_blank">Linux Logs guide</a><br>
+<a href="Subjects/2. Linux Logs/Linux_Auditd_For_ThreatDetection_IzyKnows_Part1.pdf" target="_blank">Linux Audit Subsystem Part 1 By IzyKnows</a><br>
+<a href="Subjects/2. Linux Logs/Linux_Auditd_For_ThreatDetection_IzyKnows_Part2.pdf" target="_blank">Linux Audit Subsystem Part 2 By IzyKnows</a><br>
+<a href="Subjects/2. Linux Logs/Linux_Auditd_For_ThreatDetection_IzyKnows_Part3.pdf" target="_blank">Linux Audit Subsystem Part 3 By IzyKnows</a><br>
+<a href="Subjects/2. Linux Logs/LAUREL_README.md" target="_blank">LAUREL_README By https://github.com/threathunters-io/laurel</a><br>
+<a href="Subjects/2. Linux Logs/laurel-about.7.md" target="_blank">laurel-about.7.md By https://github.com/threathunters-io/laurel</a><br>
+<a href="Subjects/2. Linux Logs/laurel.8.md" target="_blank">laurel.8.md By https://github.com/threathunters-io/laurel</a><br>
+
 
 ## Questions
 1. Explain the difference between utmp, wtmp, btmp and lastlog files.
@@ -38,10 +43,11 @@ and feel free to ask questions as you go. Remember to document your answers and 
    and how would you detect such tampering? Give atleast 3 tamper techniques and 2 security techniques.
 
 # Chapter 3. Linux FileSystems
-- procfs - _proc.html in Subjects/3.Linux FileSystems/_proc.html
-- inodes - What_Are_inodes_linux.pdf in Subjects/3.Linux FileSystems/What_Are_inodes_linux.pdf
-- XFS - XFS Filesystem in PomeranzLinuxForensics.pdf (page 169-181)
-- XFS Archeology - PomeranzLinuxForensics.pdf Page 182 + LinuxForensicsLab VM
+<a href="Subjects/3. Linux FileSystems/_proc.html" target="_blank">procfs</a><br>
+<a href="Subjects/3. Linux FileSystems/What_Are_inodes_linux.pdf" target="_blank">inodes</a><br>
+<a href="Resources/PomeranzLinuxForensics.pdf#page=169" target="_blank">PomeranzLinuxForensics page 169-181 By Hal Pomeranz</a><br>
+<a href="Resources/PomeranzLinuxForensics.pdf#page=182" target="_blank">PomeranzLinuxForensics page 182+LinuxForensicsLab VM By Hal Pomeranz</a>
+
 
 ## Questions
 1. Explain how the /proc filesystem differs from other filesystems in Linux. 
@@ -63,8 +69,9 @@ and feel free to ask questions as you go. Remember to document your answers and 
 
 
 # Chapter 4. Linux Attacks Techniques
-- Read Persistence mechanism in Subjects/4.Linux Attacks Techniques/Persistence.html
-- Go through linux-persistence-map.pdf
+<a href="Subjects/4. Linux Attacks Techniques/Persistence.html" target="_blank">Persistence mechanisms</a><br>
+<a href="Subjects/4. Linux Attacks Techniques/linux-persistence-map.pdf" target="_blank">Linux Persistence Map</a>
+
 
 ## Questions
 1. What is a persistence mechanism, and why is it valuable to attackers?
@@ -75,9 +82,9 @@ and feel free to ask questions as you go. Remember to document your answers and 
 
 
 # Chapter 5. Linux Artifacts & Live Response
-- Artifacts.md in Subjects/2.Linux Artifacts & Live Response/Artifacts.md
-- PomeranzLinuxForensics.pdf pages 5-13(with Exercise 1)
-- PomeranzLinuxForensics.pdf Exercise 2-4(Honeypot Lab)
+<a href="Subjects/5. Linux Artifacts & Live Response/Artifacts.md" target="_blank">Linux Artifacts guide</a><br>
+<a href="Resources/PomeranzLinuxForensics.pdf#page=5" target="_blank">PomeranzLinuxForensics page 5-13(including Exercise) By Hal Pomeranz</a><br>
+<a href="Resources/PomeranzLinuxForensics.pdf" target="_blank">PomeranzLinuxForensics Exercise 2-4(Honeypot Lab) By Hal Pomeranz</a>
 
 
 ## Questions

@@ -53,7 +53,7 @@ https://cyberdefenders.org/blueteam-ctf-challenges/?content=free&categories=endp
    and how would you detect such tampering? Give atleast 3 tamper techniques and 2 security techniques.
 
 # Chapter 3. Linux FileSystems
-<a href="Subjects/3. Linux FileSystems/_proc.html" target="_blank">procfs</a><br>
+<a href="Subjects/3. Linux FileSystems/procfs.html" target="_blank">procfs</a><br>
 <a href="Subjects/3. Linux FileSystems/What_Are_inodes_linux.pdf" target="_blank">inodes</a><br>
 <a href="Resources/PomeranzLinuxForensics.pdf#page=169" target="_blank">PomeranzLinuxForensics page 169-181 By Hal Pomeranz</a><br>
 <a href="Resources/PomeranzLinuxForensics.pdf#page=182" target="_blank">PomeranzLinuxForensics page 182+LinuxForensicsLab VM By Hal Pomeranz</a>

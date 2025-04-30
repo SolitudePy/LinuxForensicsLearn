@@ -3,7 +3,7 @@ layout: default
 title: Logs
 ---
 
-# Community | Understanding Log Files on your Linux System
+# Understanding Log Files on your Linux System
 
 ### Log files in Linux represent point in time events for activity related to the OS, system devices, and applications running on the system. Learn how to leverage logs to investigate, troubleshoot issues, debug applications, and keep servers reliable at all times.
 

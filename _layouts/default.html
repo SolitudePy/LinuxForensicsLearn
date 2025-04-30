@@ -38,17 +38,21 @@
     }
 
     pre {
-      background-color: var(--code-bg);
-      padding: 1em;
-      border-radius: 5px;
-      overflow-x: auto;
+    background-color: var(--code-bg);
+    padding: 1em;
+    border-radius: 5px;
+    white-space: pre-wrap;   /* wrap long lines */
+    word-break: break-word;  /* break long words if needed */
+    overflow-x: auto;        /* fallback scroll for very long words */
+    max-width: 100%;         /* allow full container width */
     }
 
     code {
-      background-color: var(--code-bg);
-      padding: 0.2em 0.4em;
-      border-radius: 3px;
-      font-family: monospace;
+    background-color: var(--code-bg);
+    padding: 0.2em 0.4em;
+    border-radius: 3px;
+    font-family: monospace;
+    word-break: break-word; /* fix inline code breaking layout */
     }
 
     blockquote {

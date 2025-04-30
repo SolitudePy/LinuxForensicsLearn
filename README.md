@@ -112,9 +112,9 @@ https://cyberdefenders.org/blueteam-ctf-challenges/?content=free&categories=endp
 
 # Chapter 6. Linux Bonus
 <a href="Resources/ulk3.pdf" target="_blank">Understanding the Linux Kernel</a><br>
-<a href="Subjects/6. Linux Bonus/How does ltrace work_ _ Packagecloud Blog.html" target="_blank">How does ltrace work</a><br>
-<a href="Subjects/6. Linux Bonus/Linux Boot Process – What Happens when Booting RHEL.html" target="_blank">Linux Boot Process</a><br>
-<a href="Subjects/6. Linux Bonus/Linux Attack Techniques_ Dynamic Linker Hijacking with LD Preload.html" target="_blank">Dynamic Linker Hijacking</a><br>
+<a href="Subjects/6. Linux Bonus/How does ltrace work_ _ Packagecloud Blog.html" target="_blank">How does ltrace work By Joe Damato</a><br>
+<a href="Subjects/6. Linux Bonus/Linux Boot Process – What Happens when Booting RHEL.html" target="_blank">Linux Boot Process By Kedar Makode</a><br>
+<a href="Subjects/6. Linux Bonus/Linux Attack Techniques_ Dynamic Linker Hijacking with LD Preload.html" target="_blank">Dynamic Linker Hijacking By jbowen@cadosecurity.com</a><br>
 
 
 **Read about the following**

@@ -14,9 +14,8 @@ https://archive.org/download/HalLinuxForensics/media-v3.0.2/
 
 Challenges:
 https://cyberdefenders.org/blueteam-ctf-challenges/?content=free&categories=endpoint-forensics&os=Linux
-
-
 ```
+
 # Chapter 1. Linux Directories 
 
 <a href="Subjects/1. Linux Directories/index.html" target="_blank">Linux Directory Structure By https://dev.to/softwaresennin</a><br>

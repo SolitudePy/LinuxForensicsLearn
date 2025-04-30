@@ -8,6 +8,8 @@ and feel free to ask questions as you go. Remember to document your answers and 
 # Chapter 1. Linux Directories 
 
 - linux-directories by dev.to in Subjects/1.Linux Directories/index.html
+
+<a href="Subjects/1. Linux Directories/index.html" target="_blank">Linux Directory Structure</a>
 - PomeranzLinuxForensics.pdf page 15-20**
 
 ## Questions

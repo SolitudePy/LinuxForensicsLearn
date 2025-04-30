@@ -7,6 +7,13 @@ Follow the outlined steps, explore the materials provided,
 and feel free to ask questions as you go. 
 Currently this guide does not explore Memory Forensics
 Remember to document your answers and reflections along the way, Let’s dive in!
+
+Resources:
+Download these: LinuxForensicsLabVM, Exercises, PomeranzLinuxForensics.pdf, README.txt
+https://archive.org/download/HalLinuxForensics/media-v3.0.2/
+
+Challenges:
+https://cyberdefenders.org/blueteam-ctf-challenges/?content=free&categories=endpoint-forensics&os=Linux
 ```
 # Chapter 1. Linux Directories 
 
@@ -87,7 +94,7 @@ Remember to document your answers and reflections along the way, Let’s dive in
 # Chapter 5. Linux Artifacts & Live Response
 <a href="Subjects/5. Linux Artifacts & Live Response/Artifacts.html" target="_blank">Linux Artifacts guide</a><br>
 <a href="Resources/PomeranzLinuxForensics.pdf#page=5" target="_blank">PomeranzLinuxForensics page 5-13(including Exercise) By Hal Pomeranz</a><br>
-<a href="Resources/PomeranzLinuxForensics.pdf" target="_blank">PomeranzLinuxForensics Exercise 2-4(Honeypot Lab) By Hal Pomeranz</a>
+<a href="Resources/PomeranzLinuxForensics.pdf#Page=25" target="_blank">PomeranzLinuxForensics (Pages 25, 35, 49) Exercise 2-4(Honeypot Lab) By Hal Pomeranz</a>
 
 
 ## Questions
@@ -97,15 +104,11 @@ Remember to document your answers and reflections along the way, Let’s dive in
 4. User login information is critical for tracking user activity. Choose three artifacts from the list that log user activity and explain how each could help determine whether unauthorized access has occurred.
 
 # Chapter 6. Linux Bonus
-- Linux boot
-- Linux ptrace
+<a href="Resources/ulk3.pdf" target="_blank">Understanding the Linux Kernel</a><br>
 
-ptrace implementations(strace, ltrace)
-login mechanism 
-services 
-boot mechanism 
-signals
-syscalls 
-suid
-
-	
+**Read about the following**
+* Linux bootloader
+* Ptrace
+* Linux Syscalls
+* Linux Signals
+* setuid,setgid, sticky bit file permissions

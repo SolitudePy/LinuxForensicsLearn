@@ -14,6 +14,8 @@ https://archive.org/download/HalLinuxForensics/media-v3.0.2/
 
 Challenges:
 https://cyberdefenders.org/blueteam-ctf-challenges/?content=free&categories=endpoint-forensics&os=Linux
+
+
 ```
 # Chapter 1. Linux Directories 
 
@@ -118,3 +120,8 @@ https://cyberdefenders.org/blueteam-ctf-challenges/?content=free&categories=endp
 * Linux Syscalls
 * Linux Signals
 * setuid,setgid, sticky bit file permissions
+
+
+# Answers
+Review your answers in:
+<a href="Answers.md" target="_blank">Answers</a>

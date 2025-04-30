@@ -9,7 +9,7 @@ Currently this guide does not explore Memory Forensics
 Remember to document your answers and reflections along the way, Let’s dive in!
 
 Resources:
-Download these: LinuxForensicsLabVM, Exercises, PomeranzLinuxForensics.pdf, README.txt
+Download these: LinuxForensicsLabVM/, Exercises/, PomeranzLinuxForensics.pdf, README.txt
 https://archive.org/download/HalLinuxForensics/media-v3.0.2/
 
 Challenges:

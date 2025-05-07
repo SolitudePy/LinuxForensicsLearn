@@ -1,4 +1,8 @@
 # Linux Forensics Study Guide
+
+## 🌐 GitHub Pages
+Visit the live site: [https://solitudepy.github.io/LinuxForensicsLearn](https://solitudepy.github.io/LinuxForensicsLearn)
+
 ```
 Welcome to the Linux Forensics study guide! 
 This document will help you navigate through the necessary topics, 

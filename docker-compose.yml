@@ -1,0 +1,11 @@
+services:
+  jekyll-forensics:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: jekyll_forensics
+    ports:
+      - "4000:4000"
+    volumes:
+      - .:/srv/jekyll
+    restart: always

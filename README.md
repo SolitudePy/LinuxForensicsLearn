@@ -9,7 +9,6 @@ By default, `docker-compose.yml` can use the published image from GHCR:
 ```
 git clone git@github.com:SolitudePy/LinuxForensicsLearn.git
 cd LinuxForensicsLearn
-docker compose build
 docker compose up -d
 ```
 This will pull the image from GHCR if you do not build locally.

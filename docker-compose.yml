@@ -1,8 +1,6 @@
 services:
   jekyll-forensics:
-    build:
-      context: .
-      dockerfile: Dockerfile
+    image: ghcr.io/solitudepy/jekyll-modified:latest
     container_name: jekyll_forensics
     ports:
       - "4000:4000"

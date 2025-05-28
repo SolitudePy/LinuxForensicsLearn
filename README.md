@@ -2,7 +2,7 @@
 Visit the live site: [https://solitudepy.github.io/LinuxForensicsLearn](https://solitudepy.github.io/LinuxForensicsLearn)
 
 ## 🐳 GitHub Container Registry (GHCR) Image
-A Docker image is automatically built and published to GitHub Container Registry (GHCR) on every push to the `main` branch.
+A Docker image is automatically built and published to GitHub Container Registry (GHCR) on every push to the `master` branch.
 
 ### Serving it yourself
 By default, `docker-compose.yml` can use the published image from GHCR:

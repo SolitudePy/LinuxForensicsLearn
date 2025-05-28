@@ -28,10 +28,16 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Set lower case owner name
+        id: set_owner_lc
+        run: echo "owner_lc=${OWNER,,}" >> $GITHUB_OUTPUT
+        env:
+          OWNER: ${{ github.repository_owner }}
+
       - name: Build and push Docker image
         uses: docker/build-push-action@v5
         with:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ghcr.io/${{ github.repository }}-jekyll-modified:latest
+          tags: ghcr.io/${{ steps.set_owner_lc.outputs.owner_lc }}/jekyll-modified:latest

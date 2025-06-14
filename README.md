@@ -1,4 +1,4 @@
-## 🌐 GitHub Pages
+## 🌐 Study guide on GitHub Pages
 Visit the live site: [https://solitudepy.github.io/LinuxForensicsLearn](https://solitudepy.github.io/LinuxForensicsLearn)
 
 ## 🐳 GitHub Container Registry (GHCR) Image
